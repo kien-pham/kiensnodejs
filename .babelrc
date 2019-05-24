@@ -1,0 +1,13 @@
+// run bellow commands
+// npm install --save-dev babel-plugin-transform-runtime
+// npm install --save-dev babel-preset-stage-1
+
+{
+    "presets": [
+        "es2015",
+        "stage-1"
+    ],
+    "plugins": [
+        "transform-runtime"
+    ]
+}
